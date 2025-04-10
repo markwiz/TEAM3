@@ -1,2 +1,4 @@
-# TEAM3
-TEAM3
+# team-3
+Tiimi liikmed: Mark Kuusik, Freddie Turulinn, Orvet Priimägi
+
+Flappy birdi taoline mäng
