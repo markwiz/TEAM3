@@ -2,3 +2,6 @@
 Tiimi liikmed: Mark Kuusik, Freddie Turulinn, Orvet Priimägi
 
 Flappy birdi taoline mäng
+
+
+Kasutaja lugu nr 1.
