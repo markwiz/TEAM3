@@ -8,8 +8,9 @@ Objekt, mis liigub ise edasi. Kasutaja juhib seda space vajutades. Ette tulevad 
 Rollid on jaotatud võrdselt omavahel, koodimine, disain ja dokumentatsioon.
 
 1.	Algusvaade:
-o	Keskel suur pealkiri: "Flappy Plane"
-o	All keskel tekst: "Vajuta SPACE, et alustada"
+
+ Keskel suur pealkiri: "Flappy Plane"
+All keskel tekst: "Vajuta SPACE, et alustada"
 o	Väike hall „lennuk“ keskel ekraani.
 2.	Mänguvaade:
 o	Pilvelõhkujad paarikaupa liikumas.
