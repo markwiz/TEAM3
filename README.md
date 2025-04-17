@@ -8,20 +8,19 @@ Objekt, mis liigub ise edasi. Kasutaja juhib seda space vajutades. Ette tulevad 
 Rollid on jaotatud võrdselt omavahel, koodimine, disain ja dokumentatsioon.
 
 1.	Algusvaade:
-
- Keskel suur pealkiri: "Flappy Plane"
-All keskel tekst: "Vajuta SPACE, et alustada"
-o	Väike hall „lennuk“ keskel ekraani.
+-Keskel suur pealkiri: "Flappy Plane"
+-All keskel tekst: "Vajuta SPACE, et alustada"
+-Väike hall „lennuk“ keskel ekraani.
 2.	Mänguvaade:
-o	Pilvelõhkujad paarikaupa liikumas.
-o	Mängija kontrollitav „lennuk“.
-o	Ülemises vasakus nurgas tekst: "Score: 0"
-o	Ülemises vasakus nurgas all tekst: "High: 0"
+-Pilvelõhkujad paarikaupa liikumas.
+-Mängija kontrollitav „lennuk“.
+-Ülemises vasakus nurgas tekst: "Score: 0"
+-Ülemises vasakus nurgas all tekst: "High: 0"
 3.	Mängu Lõpu Vaade:
-o	Kasti sees suur tekst: "GAME OVER"
-o	Kasti sees allpool: "Score: [Mängija lõplik punktisumma]"
-o	Kasti sees allpool: "High Score: [Kõrgeim punktisumma]"
-o	Kasti sees all keskel: "Vajuta SPACE, et uuesti alustada"
+-Kasti sees suur tekst: "GAME OVER"
+-Kasti sees allpool: "Score: [Mängija lõplik punktisumma]"
+-Kasti sees allpool: "High Score: [Kõrgeim punktisumma]"
+-Kasti sees all keskel: "Vajuta SPACE, et uuesti alustada"
 Kasutajalugu 1: Mängu alustamine
 •	Kasutaja: Uus mängija
 •	Eesmärk: Soovin alustada mängu.
