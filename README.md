@@ -13,10 +13,11 @@
 ## Mängu juhised
 1. Käivita mäng failist `mäng.py`
 2. Vajuta tühikuklahvi mängu alustamiseks
-3. Kasuta tühikuklahvi kärpse lennutamiseks
-4. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
-5. Iga läbitud takistus annab ühe punkti
-6. Mängu lõppedes vajuta tühikuklahvi uuesti alustamiseks
+   ![start](https://github.com/markwiz/TEAM3/blob/main/start.png)
+4. Kasuta tühikuklahvi kärpse lennutamiseks
+5. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
+6. Iga läbitud takistus annab ühe punkti
+7. Mängu lõppedes vajuta tühikuklahvi uuesti alustamiseks
 
 ## Projekti struktuur
 - `mäng.py` - peamine mängufail, sisaldab mängu tsüklit
