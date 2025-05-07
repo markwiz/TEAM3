@@ -1,54 +1,39 @@
-# team-3
-Tiimi liikmed: Mark Kuusik, Freddie Turulinn, Orvet Priimägi
+# Flappy fly
 
-Flappy birdi taoline mäng > Flappy Plane
+## Projekti ülevaade
+"Flappy Fly" on lihtne 2D mäng, kus mängija juhib kärbest, mis peab navigeerima läbi pilvelõhkujate. Mängu eesmärk on läbida võimalikult palju takistusi.
 
-Objekt, mis liigub ise edasi. Kasutaja juhib seda space vajutades. Ette tulevad takistused, mille vahelt peab läbi minema, ehk siis liikuda saab üles alla. Iga kord objekti vahelt läbi minnes saab 1 punkti. Kui kasutaja läheb vastu takistust, siis mäng lõpeb. Kui kasutaja jõuab kaugemale ja skoor on tõusnud, siis mängu pilt läheb kiiremaks. Eesmärgiks on jõuda nii kaugele, kui võimalik.
+## Funktsionaalsus
+- Kärpse juhtimine tühiku klahviga
+- Takistuste (pilvelõhkujate) genereerimine
+- Punktisüsteem ja kõrgeima tulemuse salvestamine
+- Animeeritud taustaobjektid (pilved)
+- Kärbsel efekt lendamisel
 
-Rollid on jaotatud võrdselt omavahel, koodimine, disain ja dokumentatsioon.
+## Mängu juhised
+1. Käivita mäng failist `mäng.py`
+2. Vajuta tühikuklahvi mängu alustamiseks
+3. Kasuta tühikuklahvi kärpse lennutamiseks
+4. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
+5. Iga läbitud takistus annab ühe punkti
+6. Mängu lõppedes vajuta tühikuklahvi uuesti alustamiseks
 
-1.	Algusvaade:\
--Keskel suur pealkiri: "Flappy Plane"\
--All keskel tekst: "Vajuta SPACE, et alustada"\
--Väike hall „lennuk“ keskel ekraani.\
-2.	Mänguvaade:\
--Pilvelõhkujad paarikaupa liikumas.\
--Mängija kontrollitav „lennuk“.\
--Ülemises vasakus nurgas tekst: "Score: 0"\
--Ülemises vasakus nurgas all tekst: "High: 0"\
-3.	Mängu Lõpu Vaade:\
--Kasti sees suur tekst: "GAME OVER"\
--Kasti sees allpool: "Score: [Mängija lõplik punktisumma]"\
--Kasti sees allpool: "High Score: [Kõrgeim punktisumma]"\
--Kasti sees all keskel: "Vajuta SPACE, et uuesti alustada"\
-Kasutajalugu 1: Mängu alustamine\
--	Kasutaja: Uus mängija\
--	Eesmärk: Soovin alustada mängu.\
--	Vaade: Algusvaade (kirjeldatud ülal)\
-•	Tegevused: \
-1.	Mängija näeb algusvaadet koos pealkirja ja alustamisjuhisega.\
-2.	Mängija vajutab klaviatuuril SPACE-klahvi.\
-3.	Mäng kuvab mänguvaate koos „lennuki“, pilvelõhkujate ja punktisummaga. Mäng on alanud.\
-Kasutajalugu 2: „Lennuki“ juhtimine ja punktide kogumine\
-- Kasutaja: Aktiivne mängija\
--	Eesmärk: Soovin lennutada „lennukit“ takistuste vahelt läbi ja koguda punkte.\
--	Vaade: Mänguvaade (kirjeldatud ülal)\
--	Tegevused: \
-1.	Mängija näeb „lennukit“ liikumas paremale ja langevat gravitatsiooni mõjul.\
-2.	Mängija vajutab SPACE-klahvi.\
-3.	„Lennuk“ tõuseb ülespoole.\
-4.	Mängija kordab SPACE-klahvi vajutamist, et hoida „lennukit“ õhus ja manööverdada see läbi pilvelõhkujate vahede.\
-5.	Kui „lennuk“ läbib edukalt kahe pilvelõhkuja vahe, suureneb punktisumma ülemises vasakus nurgas.\
-6.	Pilvelõhkujad liiguvad pidevalt vasakule.\
-Kasutajalugu 3: Mängu lõppemine ja uuesti proovimine\
--	Kasutaja: Mängija, kes on mängu kaotanud.\
--	Eesmärk: Soovin näha oma tulemust ja võimalust uuesti mängida.\
--	Vaade: Mängu Lõpu Vaade (kirjeldatud ülal)\
--	Tegevused: \
-1.	Kui „lennuk“ põrkab vastu pilvelõhkujat või maandub maale, lakkab mänguvaade liikumast.\
-2.	Mäng kuvab Mängu Lõpu Vaate koos lõpliku punktisumma ja kõrgeima punktisummaga.\
-3.	Mängija näeb juhist "Vajuta SPACE, et uuesti alustada".\
-4.	Mängija vajutab SPACE-klahvi.\
-5.	Mäng laeb uuesti mänguvaate algseisuga (punktisumma nullis, pilvelõhkujad algpositsioonides). Mäng algab uuesti.\
+## Projekti struktuur
+- `mäng.py` - peamine mängufail, sisaldab mängu tsüklit
+- `constants.py` - mängu konstantide definitsioonid
+- `plane.py` - kärpse klass ja funktsioonid
+- `skyscraper.py` - takistuste (pilvelõhkujate) klass
+- `cloud.py` - taustaobjektide (pilvede) klass
+- `ground.py` - maapinna klass
 
-![image](https://github.com/user-attachments/assets/0fddd1ea-72df-49ee-aa6d-f5a083d8dba1)
+## Tehnilised nõuded
+- Python 3.x
+- Pygame teek
+
+## Installeerimine
+1. Veendu, et sul on installeeritud Python 3.x
+2. Installi Pygame käsuga: `pip install pygame`
+3. Käivita mäng käsuga: `python mäng.py`
+
+## Autorid
+Mark Kuusik, Freddie Anton Turulinn, Orvet Priimägi
