@@ -13,6 +13,7 @@
 ## Mängu juhised
 1. Käivita mäng failist `mäng.py`
 2. Vajuta tühikuklahvi mängu alustamiseks
+   
    ![start](https://github.com/markwiz/TEAM3/blob/main/start.png)
 4. Kasuta tühikuklahvi kärpse lennutamiseks
 5. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
