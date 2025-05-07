@@ -16,9 +16,13 @@
    
    ![start](https://github.com/markwiz/TEAM3/blob/main/start.png)
 4. Kasuta tühikuklahvi kärpse lennutamiseks
-5. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
-6. Iga läbitud takistus annab ühe punkti
-7. Mängu lõppedes vajuta tühikuklahvi uuesti alustamiseks
+
+   "![inGame](https://github.com/markwiz/TEAM3/blob/main/ingame.png)
+6. Väldi kokkupõrget pilvelõhkujate ja maapinnaga
+7. Iga läbitud takistus annab ühe punkti
+8. Mängu lõppedes vajuta tühikuklahvi uuesti alustamiseks
+
+   ![endGame](https://github.com/markwiz/TEAM3/blob/main/endGame.png)
 
 ## Projekti struktuur
 - `mäng.py` - peamine mängufail, sisaldab mängu tsüklit
