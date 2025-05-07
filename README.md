@@ -14,7 +14,7 @@
 1. Käivita mäng failist `mäng.py`
 2. Vajuta tühikuklahvi mängu alustamiseks
    
-   ![start](https://github.com/markwiz/TEAM3/blob/main/start.png)
+   ![start](https://github.com/markwiz/TEAM3/blob/main/start.png width="150" height="280")
 4. Kasuta tühikuklahvi kärpse lennutamiseks
 
    "![inGame](https://github.com/markwiz/TEAM3/blob/main/ingame.png)
