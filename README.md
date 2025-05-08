@@ -43,3 +43,6 @@
 
 ## Autorid
 Mark Kuusik, Freddie Anton Turulinn, Orvet Priimägi
+
+Esitlus https://docs.google.com/presentation/d/1RiU5JGwGIvWGS8t-g3lSq5KOaZS7tFFt/edit?usp=drive_link&ouid=107144099569847127882&rtpof=true&sd=true
+
